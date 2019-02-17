@@ -1,0 +1,22 @@
+{{ "<!-- HEADER -->" | safeHTML }}
+<header>
+    <div class="header-content">
+        <div class="header-content-inner">
+            {{ with .Site.Params.hero.slogan }}
+                <h1 class="text-right">{{ . | markdownify  }}</h1>
+            {{ end }}
+            {{ if and .Site.Params.hero.slogan .Site.Params.hero.subtitle }}
+                <hr>
+            {{ end }}
+            {{ with .Site.Params.hero.slogan2 }}
+                <PRE><h1 class="text-left">{{ . | markdownify  }}</h1></PRE>
+            {{ end }}
+            {{ with .Site.Params.hero.subtitle }}
+                <p class="text-left">&emsp;&emsp;{{ . | markdownify }}</p>
+            {{ end }}
+            {{ with .Site.Params.hero.buttonText }}
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">{{ . }}</a>
+            {{ end }}
+        </div>
+    </div>
+</header>
