@@ -61,7 +61,7 @@ publishDir = "docs"
 
 	# Service section
 	[params.services]
-		headline = "We've done it all"
+	    headline = "We've done it all"
 
         [[params.services.list]]
             icon = "fa-diamond"
@@ -69,11 +69,10 @@ publishDir = "docs"
             description = "Believe it or not, prior to this terminal case of learning herpes, we were actually thinking about going somewhere"
 
         [[params.services.list]]
-						icon = "fa-home"
-						title = "Moved on Up"
-						description = "You can use this theme as is, or you can make changes!"
-
-				[[params.services.list]]
+	    icon = "fa-home"
+	    title = "Moved on Up"
+	    description = "Lessons on our minds, dreams in our heads, and ambition in our hearts, San Francisco"
+	[[params.services.list]]
             icon = "fa-calendar-times-o"
             title = "Setting a Date"
             description = "On The 11th day of December in the oh 12th year of our lords second millennium"
@@ -83,10 +82,15 @@ publishDir = "docs"
             title = "Made with Love"
             description = "We are full of it! Produced Manufactured and Distributed from our own mines in their own beds"
 
-				[[params.services.list]]
-						icon = "fa-child"
-						title = "Made with Love"
-						description = "We are full of it! Produced Manufactured and Distributed from our own mines in their own beds"
+	[[params.services.list]]
+       	    icon = "fa-child"
+	    title = "Made with Love"
+	    description = "We are full of it! Produced Manufactured and Distributed from our own mines in their own beds"
+
+	[[params.services.list]]
+	    icon = "fa-tree"
+	    title = "Our Notebook"
+	    description = "We never stopped dreaming. Some destinations took a lot longer than others, while others passed by quicker than we had time to appreciate. We did all of it, #BeWildaBeast Mode and all, *Together*"
 
     # Portfolio modals
 	[params.portfolio.modal]
